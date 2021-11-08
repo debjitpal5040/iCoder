@@ -1,2 +1,3 @@
 # iCoder
-Heaven for Coders
+A blog for Coding enthusiasts 
+Made via Bootstrap
