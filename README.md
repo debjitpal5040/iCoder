@@ -1,3 +1,3 @@
 # iCoder
-A blog for Coding enthusiasts 
-Made via Bootstrap
+This is a simple blog for coding enthusiasts. <br>
+It is made via HTML & Bootstrap.
