@@ -1,15 +1,5 @@
 body {
-    background-color: #f2f7fb
-}
-
-.login-block {
-    margin: 30px auto;
-    min-height: 93.6vh
-}
-
-.login-block .auth-box {
-    margin: 20px auto 0;
-    max-width: 450px !important
+    background-color: whitesmoke
 }
 
 .card {
@@ -50,12 +40,6 @@ body {
     border-bottom: 1px solid #ccc
 }
 
-.btn-md {
-    padding: 10px 16px;
-    font-size: 15px;
-    line-height: 23px
-}
-
 .btn-primary {
     background-color: #4099ff;
     border-color: #4099ff;
@@ -77,41 +61,47 @@ body {
     margin-bottom: 20px
 }
 
-.btn-md {
-    padding: 10px 16px;
-    font-size: 15px;
-    line-height: 23px
-}
-
 .heading {
     font-size: 21px
 }
-
-#infoMessage p {
-    color: red !important
+.navbar-brand {
+    font-weight: bolder !important;
 }
-
-.btn-google {
-    color: #545454;
-    background-color: #ffffff;
-    box-shadow: 0 1px 2px 1px #ddd
+.navbar-brand:hover {
+    color: yellow !important;
+    transition: color 0.5s;
+    transform: scale(1.2);
+    transition: transform 0.5s;
 }
-
-.or-container {
-    align-items: center;
-    color: #ccc;
-    display: flex;
-    margin: 25px 0
+.nav-link:hover {
+    color: aqua !important;
+    transition: color 0.5s;
+    background-color: hsl(222, 62%, 32%);
+    transition: background-color 0.5s;
+    border-radius: 10px;
+    font-size: 15px;
+    transform: scale(1.2);
+    transition: transform 0.5s;
 }
-
-.line-separator {
-    background-color: #ccc;
-    flex-grow: 5;
-    height: 1px
+.btn:hover {
+    color: aliceblue !important;
+    background-color: goldenrod !important;
+    transition: background-color 0.5s;
+    font-size: 15px !important;
+    transition: color 0.5s;
 }
-
-.or-label {
-    flex-grow: 1;
-    margin: 0 15px;
-    text-align: center
+.dropdown-item:hover {
+    color: aqua !important;
+    background-color: hsl(222, 62%, 32%) !important;
+    transition: background-color 0.5s !important;
+    border-radius: 10px !important;
+    font-size: 15px !important;
+    transition: color 0.5s;
+}
+.dropdown-item {
+    width: 200px !important;
+    margin-left: 0px !important;
+}
+nav div a {
+    margin-left: 2rem;
 }
